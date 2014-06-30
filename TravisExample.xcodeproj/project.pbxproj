@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD8CF4041962253F007FF171 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8CF4031962253F007FF171 /* Foundation.framework */; };
+		BD8CF4061962253F007FF171 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8CF4051962253F007FF171 /* CoreGraphics.framework */; };
+		BD8CF4081962253F007FF171 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8CF4071962253F007FF171 /* UIKit.framework */; };
+		BD8CF40D1962253F007FF171 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8CF40C1962253F007FF171 /* main.m */; };
+		BD8CF4121962253F007FF171 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8CF4111962253F007FF171 /* AppDelegate.m */; };
+		BD8CF4141962253F007FF171 /* initial-git-commit in Resources */ = {isa = PBXBuildFile; fileRef = BD8CF4131962253F007FF171 /* initial-git-commit */; };
+		BD8CF4161962253F007FF171 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BD8CF4151962253F007FF171 /* Podfile */; };
+		BD8CF4181962253F007FF171 /* setup-structure in Resources */ = {isa = PBXBuildFile; fileRef = BD8CF4171962253F007FF171 /* setup-structure */; };
+		BD8CF41A1962253F007FF171 /* objc-assetgen in Resources */ = {isa = PBXBuildFile; fileRef = BD8CF4191962253F007FF171 /* objc-assetgen */; };
+		BD8CF41C19622540007FF171 /* objc-customfontlist in Resources */ = {isa = PBXBuildFile; fileRef = BD8CF41B19622540007FF171 /* objc-customfontlist */; };
+		BD8CF41E19622540007FF171 /* objc-identifierconstants in Resources */ = {isa = PBXBuildFile; fileRef = BD8CF41D19622540007FF171 /* objc-identifierconstants */; };
+		BD8CF42119622540007FF171 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8CF42019622540007FF171 /* Main_iPhone.storyboard */; };
+		BD8CF42319622540007FF171 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8CF42219622540007FF171 /* Main_iPad.storyboard */; };
+		BD8CF42619622540007FF171 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8CF42519622540007FF171 /* ViewController.m */; };
+		BD8CF42819622540007FF171 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8CF42719622540007FF171 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD8CF4001962253F007FF171 /* TravisExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravisExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD8CF4031962253F007FF171 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD8CF4051962253F007FF171 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD8CF4071962253F007FF171 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BD8CF40B1962253F007FF171 /* TravisExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TravisExample-Info.plist"; path = "../Resources/TravisExample-Info.plist"; sourceTree = "<group>"; };
+		BD8CF40C1962253F007FF171 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../Resources/main.m; sourceTree = "<group>"; };
+		BD8CF40E1962253F007FF171 /* TravisExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TravisExample-Prefix.pch"; path = "../Resources/TravisExample-Prefix.pch"; sourceTree = "<group>"; };
+		BD8CF4101962253F007FF171 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../Classes/AppDelegate.h; sourceTree = "<group>"; };
+		BD8CF4111962253F007FF171 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../Classes/AppDelegate.m; sourceTree = "<group>"; };
+		BD8CF4131962253F007FF171 /* initial-git-commit */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "initial-git-commit"; path = "../initial-git-commit"; sourceTree = "<group>"; };
+		BD8CF4151962253F007FF171 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		BD8CF4171962253F007FF171 /* setup-structure */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "setup-structure"; path = "../setup-structure"; sourceTree = "<group>"; };
+		BD8CF4191962253F007FF171 /* objc-assetgen */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = "objc-assetgen"; path = "../codegenutils/objc-assetgen"; sourceTree = "<group>"; };
+		BD8CF41B19622540007FF171 /* objc-customfontlist */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = "objc-customfontlist"; path = "../codegenutils/objc-customfontlist"; sourceTree = "<group>"; };
+		BD8CF41D19622540007FF171 /* objc-identifierconstants */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = "objc-identifierconstants"; path = "../codegenutils/objc-identifierconstants"; sourceTree = "<group>"; };
+		BD8CF42019622540007FF171 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main_iPhone.storyboard; path = "../Classes/View Controllers/Main_iPhone.storyboard"; sourceTree = "<group>"; };
+		BD8CF42219622540007FF171 /* Main_iPad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main_iPad.storyboard; path = "../Classes/View Controllers/Main_iPad.storyboard"; sourceTree = "<group>"; };
+		BD8CF42419622540007FF171 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "../Classes/View Controllers/ViewController.h"; sourceTree = "<group>"; };
+		BD8CF42519622540007FF171 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "../Classes/View Controllers/ViewController.m"; sourceTree = "<group>"; };
+		BD8CF42719622540007FF171 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Resources/Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD8CF3FB1962253F007FF171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD8CF4061962253F007FF171 /* CoreGraphics.framework in Frameworks */,
+				BD8CF4081962253F007FF171 /* UIKit.framework in Frameworks */,
+				BD8CF4041962253F007FF171 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD8CF3F51962253F007FF171 = {
+			isa = PBXGroup;
+			children = (
+				BD8CF4091962253F007FF171 /* TravisExample */,
+				BD8CF4021962253F007FF171 /* Frameworks */,
+				BD8CF4011962253F007FF171 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD8CF4011962253F007FF171 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD8CF4001962253F007FF171 /* TravisExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD8CF4021962253F007FF171 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD8CF4031962253F007FF171 /* Foundation.framework */,
+				BD8CF4051962253F007FF171 /* CoreGraphics.framework */,
+				BD8CF4071962253F007FF171 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD8CF4091962253F007FF171 /* TravisExample */ = {
+			isa = PBXGroup;
+			children = (
+				BD8CF4131962253F007FF171 /* initial-git-commit */,
+				BD8CF4151962253F007FF171 /* Podfile */,
+				BD8CF4171962253F007FF171 /* setup-structure */,
+				BD8CF4191962253F007FF171 /* objc-assetgen */,
+				BD8CF41B19622540007FF171 /* objc-customfontlist */,
+				BD8CF41D19622540007FF171 /* objc-identifierconstants */,
+				BD8CF40A1962253F007FF171 /* Resources */,
+				BD8CF40F1962253F007FF171 /* Classes */,
+			);
+			path = TravisExample;
+			sourceTree = "<group>";
+		};
+		BD8CF40A1962253F007FF171 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD8CF40B1962253F007FF171 /* TravisExample-Info.plist */,
+				BD8CF40C1962253F007FF171 /* main.m */,
+				BD8CF40E1962253F007FF171 /* TravisExample-Prefix.pch */,
+				BD8CF42719622540007FF171 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BD8CF40F1962253F007FF171 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BD8CF4101962253F007FF171 /* AppDelegate.h */,
+				BD8CF4111962253F007FF171 /* AppDelegate.m */,
+				BD8CF41F19622540007FF171 /* View Controllers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		BD8CF41F19622540007FF171 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BD8CF42019622540007FF171 /* Main_iPhone.storyboard */,
+				BD8CF42219622540007FF171 /* Main_iPad.storyboard */,
+				BD8CF42419622540007FF171 /* ViewController.h */,
+				BD8CF42519622540007FF171 /* ViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD8CF3FF1962253F007FF171 /* TravisExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD8CF42B19622540007FF171 /* Build configuration list for PBXNativeTarget "TravisExample" */;
+			buildPhases = (
+				BD8CF3FA1962253F007FF171 /* Sources */,
+				BD8CF3FB1962253F007FF171 /* Frameworks */,
+				BD8CF3FC1962253F007FF171 /* Resources */,
+				BD8CF3FD1962253F007FF171 /* ShellScript */,
+				BD8CF3FE1962253F007FF171 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravisExample;
+			productName = TravisExample;
+			productReference = BD8CF4001962253F007FF171 /* TravisExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD8CF3F61962253F007FF171 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = BitSuites;
+			};
+			buildConfigurationList = BD8CF3F91962253F007FF171 /* Build configuration list for PBXProject "TravisExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD8CF3F51962253F007FF171;
+			productRefGroup = BD8CF4011962253F007FF171 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD8CF3FF1962253F007FF171 /* TravisExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD8CF3FC1962253F007FF171 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD8CF42819622540007FF171 /* Images.xcassets in Resources */,
+				BD8CF4161962253F007FF171 /* Podfile in Resources */,
+				BD8CF41E19622540007FF171 /* objc-identifierconstants in Resources */,
+				BD8CF41C19622540007FF171 /* objc-customfontlist in Resources */,
+				BD8CF4181962253F007FF171 /* setup-structure in Resources */,
+				BD8CF41A1962253F007FF171 /* objc-assetgen in Resources */,
+				BD8CF42319622540007FF171 /* Main_iPad.storyboard in Resources */,
+				BD8CF42119622540007FF171 /* Main_iPhone.storyboard in Resources */,
+				BD8CF4141962253F007FF171 /* initial-git-commit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD8CF3FD1962253F007FF171 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "version=`git rev-parse --short HEAD`\ncount=`git rev-list --all |wc -l`\necho -e \"#define GIT_REVISION $version\\n#define GIT_COMMIT_COUNT $count\" > Resources/InfoPlist.h";
+		};
+		BD8CF3FE1962253F007FF171 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "GENERATED_PATH=\"$SRCROOT/Classes/Generated\"\n\nIDENTIFIERS_PATH=\"$GENERATED_PATH/Identifiers\"\nCATALOGS_PATH=\"$GENERATED_PATH/Catalogs\"\nFONTS_PATH=\"$GENERATED_PATH/Fonts\"\n\nrm -rf \"$IDENTIFIERS_PATH\"\nrm -rf \"$CATALOGS_PATH\"\nrm -rf \"$FONTS_PATH\"\nmkdir -p \"$IDENTIFIERS_PATH\"\nmkdir -p \"$CATALOGS_PATH\"\nmkdir -p \"$FONTS_PATH\"\n\n\"$SRCROOT/codegenutils/objc-assetgen\" -f \"$SRCROOT\" -o \"$CATALOGS_PATH\"\n\"$SRCROOT/codegenutils/objc-identifierconstants\" -f \"$SRCROOT/Classes\" -o \"$IDENTIFIERS_PATH\" -u\n\"$SRCROOT/codegenutils/objc-customfontlist\" -s -f \"$SRCROOT\" -o \"$FONTS_PATH\" -u";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD8CF3FA1962253F007FF171 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD8CF42619622540007FF171 /* ViewController.m in Sources */,
+				BD8CF4121962253F007FF171 /* AppDelegate.m in Sources */,
+				BD8CF40D1962253F007FF171 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BD8CF42919622540007FF171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD8CF42A19622540007FF171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD8CF42C19622540007FF171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Resources/TravisExample-Prefix.pch";
+				INFOPLIST_FILE = "Resources/TravisExample-Info.plist";
+				INFOPLIST_PREFIX_HEADER = Resources/InfoPlist.h;
+				INFOPLIST_PREPROCESS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BD8CF42D19622540007FF171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Resources/TravisExample-Prefix.pch";
+				INFOPLIST_FILE = "Resources/TravisExample-Info.plist";
+				INFOPLIST_PREFIX_HEADER = Resources/InfoPlist.h;
+				INFOPLIST_PREPROCESS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD8CF3F91962253F007FF171 /* Build configuration list for PBXProject "TravisExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD8CF42919622540007FF171 /* Debug */,
+				BD8CF42A19622540007FF171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD8CF42B19622540007FF171 /* Build configuration list for PBXNativeTarget "TravisExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD8CF42C19622540007FF171 /* Debug */,
+				BD8CF42D19622540007FF171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD8CF3F61962253F007FF171 /* Project object */;
+}
