@@ -7,44 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F596486D7A4436583DA684A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B8F0E1315134008BC63A126 /* libPods.a */; };
 		BD8CF4041962253F007FF171 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8CF4031962253F007FF171 /* Foundation.framework */; };
 		BD8CF4061962253F007FF171 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8CF4051962253F007FF171 /* CoreGraphics.framework */; };
 		BD8CF4081962253F007FF171 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8CF4071962253F007FF171 /* UIKit.framework */; };
-		BD8CF40D1962253F007FF171 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8CF40C1962253F007FF171 /* main.m */; };
-		BD8CF4121962253F007FF171 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8CF4111962253F007FF171 /* AppDelegate.m */; };
-		BD8CF4141962253F007FF171 /* initial-git-commit in Resources */ = {isa = PBXBuildFile; fileRef = BD8CF4131962253F007FF171 /* initial-git-commit */; };
-		BD8CF4161962253F007FF171 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BD8CF4151962253F007FF171 /* Podfile */; };
-		BD8CF4181962253F007FF171 /* setup-structure in Resources */ = {isa = PBXBuildFile; fileRef = BD8CF4171962253F007FF171 /* setup-structure */; };
-		BD8CF41A1962253F007FF171 /* objc-assetgen in Resources */ = {isa = PBXBuildFile; fileRef = BD8CF4191962253F007FF171 /* objc-assetgen */; };
-		BD8CF41C19622540007FF171 /* objc-customfontlist in Resources */ = {isa = PBXBuildFile; fileRef = BD8CF41B19622540007FF171 /* objc-customfontlist */; };
-		BD8CF41E19622540007FF171 /* objc-identifierconstants in Resources */ = {isa = PBXBuildFile; fileRef = BD8CF41D19622540007FF171 /* objc-identifierconstants */; };
-		BD8CF42119622540007FF171 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8CF42019622540007FF171 /* Main_iPhone.storyboard */; };
-		BD8CF42319622540007FF171 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8CF42219622540007FF171 /* Main_iPad.storyboard */; };
-		BD8CF42619622540007FF171 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8CF42519622540007FF171 /* ViewController.m */; };
-		BD8CF42819622540007FF171 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8CF42719622540007FF171 /* Images.xcassets */; };
+		BD8CF44B196225EC007FF171 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8CF431196225EC007FF171 /* AppDelegate.m */; };
+		BD8CF44C196225EC007FF171 /* ImagesCatalog.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8CF436196225EC007FF171 /* ImagesCatalog.m */; };
+		BD8CF44D196225EC007FF171 /* Main_iPadStoryboardIdentifiers.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8CF43A196225EC007FF171 /* Main_iPadStoryboardIdentifiers.m */; };
+		BD8CF44E196225EC007FF171 /* Main_iPhoneStoryboardIdentifiers.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8CF43C196225EC007FF171 /* Main_iPhoneStoryboardIdentifiers.m */; };
+		BD8CF44F196225EC007FF171 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8CF440196225EC007FF171 /* Main_iPad.storyboard */; };
+		BD8CF450196225EC007FF171 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8CF441196225EC007FF171 /* Main_iPhone.storyboard */; };
+		BD8CF451196225EC007FF171 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8CF443196225EC007FF171 /* ViewController.m */; };
+		BD8CF452196225EC007FF171 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8CF447196225EC007FF171 /* Images.xcassets */; };
+		BD8CF453196225EC007FF171 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8CF448196225EC007FF171 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B8F0E1315134008BC63A126 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8CF4001962253F007FF171 /* TravisExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravisExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8CF4031962253F007FF171 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BD8CF4051962253F007FF171 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		BD8CF4071962253F007FF171 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		BD8CF40B1962253F007FF171 /* TravisExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TravisExample-Info.plist"; path = "../Resources/TravisExample-Info.plist"; sourceTree = "<group>"; };
-		BD8CF40C1962253F007FF171 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../Resources/main.m; sourceTree = "<group>"; };
-		BD8CF40E1962253F007FF171 /* TravisExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TravisExample-Prefix.pch"; path = "../Resources/TravisExample-Prefix.pch"; sourceTree = "<group>"; };
-		BD8CF4101962253F007FF171 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../Classes/AppDelegate.h; sourceTree = "<group>"; };
-		BD8CF4111962253F007FF171 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../Classes/AppDelegate.m; sourceTree = "<group>"; };
-		BD8CF4131962253F007FF171 /* initial-git-commit */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "initial-git-commit"; path = "../initial-git-commit"; sourceTree = "<group>"; };
-		BD8CF4151962253F007FF171 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
-		BD8CF4171962253F007FF171 /* setup-structure */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "setup-structure"; path = "../setup-structure"; sourceTree = "<group>"; };
-		BD8CF4191962253F007FF171 /* objc-assetgen */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = "objc-assetgen"; path = "../codegenutils/objc-assetgen"; sourceTree = "<group>"; };
-		BD8CF41B19622540007FF171 /* objc-customfontlist */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = "objc-customfontlist"; path = "../codegenutils/objc-customfontlist"; sourceTree = "<group>"; };
-		BD8CF41D19622540007FF171 /* objc-identifierconstants */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = "objc-identifierconstants"; path = "../codegenutils/objc-identifierconstants"; sourceTree = "<group>"; };
-		BD8CF42019622540007FF171 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main_iPhone.storyboard; path = "../Classes/View Controllers/Main_iPhone.storyboard"; sourceTree = "<group>"; };
-		BD8CF42219622540007FF171 /* Main_iPad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main_iPad.storyboard; path = "../Classes/View Controllers/Main_iPad.storyboard"; sourceTree = "<group>"; };
-		BD8CF42419622540007FF171 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "../Classes/View Controllers/ViewController.h"; sourceTree = "<group>"; };
-		BD8CF42519622540007FF171 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "../Classes/View Controllers/ViewController.m"; sourceTree = "<group>"; };
-		BD8CF42719622540007FF171 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Resources/Images.xcassets; sourceTree = "<group>"; };
+		BD8CF430196225EC007FF171 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD8CF431196225EC007FF171 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD8CF435196225EC007FF171 /* ImagesCatalog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesCatalog.h; sourceTree = "<group>"; };
+		BD8CF436196225EC007FF171 /* ImagesCatalog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesCatalog.m; sourceTree = "<group>"; };
+		BD8CF439196225EC007FF171 /* Main_iPadStoryboardIdentifiers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main_iPadStoryboardIdentifiers.h; sourceTree = "<group>"; };
+		BD8CF43A196225EC007FF171 /* Main_iPadStoryboardIdentifiers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main_iPadStoryboardIdentifiers.m; sourceTree = "<group>"; };
+		BD8CF43B196225EC007FF171 /* Main_iPhoneStoryboardIdentifiers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Main_iPhoneStoryboardIdentifiers.h; sourceTree = "<group>"; };
+		BD8CF43C196225EC007FF171 /* Main_iPhoneStoryboardIdentifiers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main_iPhoneStoryboardIdentifiers.m; sourceTree = "<group>"; };
+		BD8CF440196225EC007FF171 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		BD8CF441196225EC007FF171 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		BD8CF442196225EC007FF171 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD8CF443196225EC007FF171 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD8CF447196225EC007FF171 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BD8CF448196225EC007FF171 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD8CF449196225EC007FF171 /* TravisExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TravisExample-Info.plist"; sourceTree = "<group>"; };
+		BD8CF44A196225EC007FF171 /* TravisExample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TravisExample-Prefix.pch"; sourceTree = "<group>"; };
+		D60784369ACF4177BEC5B002 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +55,7 @@
 				BD8CF4061962253F007FF171 /* CoreGraphics.framework in Frameworks */,
 				BD8CF4081962253F007FF171 /* UIKit.framework in Frameworks */,
 				BD8CF4041962253F007FF171 /* Foundation.framework in Frameworks */,
+				8F596486D7A4436583DA684A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,9 +65,12 @@
 		BD8CF3F51962253F007FF171 = {
 			isa = PBXGroup;
 			children = (
-				BD8CF4091962253F007FF171 /* TravisExample */,
+				BD8CF445196225EC007FF171 /* External Frameworks */,
+				BD8CF42E196225EC007FF171 /* Classes */,
+				BD8CF446196225EC007FF171 /* Resources */,
 				BD8CF4021962253F007FF171 /* Frameworks */,
 				BD8CF4011962253F007FF171 /* Products */,
+				D60784369ACF4177BEC5B002 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,55 +88,126 @@
 				BD8CF4031962253F007FF171 /* Foundation.framework */,
 				BD8CF4051962253F007FF171 /* CoreGraphics.framework */,
 				BD8CF4071962253F007FF171 /* UIKit.framework */,
+				0B8F0E1315134008BC63A126 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BD8CF4091962253F007FF171 /* TravisExample */ = {
+		BD8CF42E196225EC007FF171 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				BD8CF4131962253F007FF171 /* initial-git-commit */,
-				BD8CF4151962253F007FF171 /* Podfile */,
-				BD8CF4171962253F007FF171 /* setup-structure */,
-				BD8CF4191962253F007FF171 /* objc-assetgen */,
-				BD8CF41B19622540007FF171 /* objc-customfontlist */,
-				BD8CF41D19622540007FF171 /* objc-identifierconstants */,
-				BD8CF40A1962253F007FF171 /* Resources */,
-				BD8CF40F1962253F007FF171 /* Classes */,
+				BD8CF433196225EC007FF171 /* Generated */,
+				BD8CF42F196225EC007FF171 /* Additions */,
+				BD8CF43D196225EC007FF171 /* Helpers */,
+				BD8CF432196225EC007FF171 /* Cells */,
+				BD8CF43E196225EC007FF171 /* Model Objects */,
+				BD8CF444196225EC007FF171 /* Views */,
+				BD8CF43F196225EC007FF171 /* View Controllers */,
+				BD8CF430196225EC007FF171 /* AppDelegate.h */,
+				BD8CF431196225EC007FF171 /* AppDelegate.m */,
 			);
-			path = TravisExample;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		BD8CF40A1962253F007FF171 /* Resources */ = {
+		BD8CF42F196225EC007FF171 /* Additions */ = {
 			isa = PBXGroup;
 			children = (
-				BD8CF40B1962253F007FF171 /* TravisExample-Info.plist */,
-				BD8CF40C1962253F007FF171 /* main.m */,
-				BD8CF40E1962253F007FF171 /* TravisExample-Prefix.pch */,
-				BD8CF42719622540007FF171 /* Images.xcassets */,
 			);
-			name = Resources;
+			path = Additions;
 			sourceTree = "<group>";
 		};
-		BD8CF40F1962253F007FF171 /* Classes */ = {
+		BD8CF432196225EC007FF171 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				BD8CF4101962253F007FF171 /* AppDelegate.h */,
-				BD8CF4111962253F007FF171 /* AppDelegate.m */,
-				BD8CF41F19622540007FF171 /* View Controllers */,
 			);
-			name = Classes;
+			path = Cells;
 			sourceTree = "<group>";
 		};
-		BD8CF41F19622540007FF171 /* View Controllers */ = {
+		BD8CF433196225EC007FF171 /* Generated */ = {
 			isa = PBXGroup;
 			children = (
-				BD8CF42019622540007FF171 /* Main_iPhone.storyboard */,
-				BD8CF42219622540007FF171 /* Main_iPad.storyboard */,
-				BD8CF42419622540007FF171 /* ViewController.h */,
-				BD8CF42519622540007FF171 /* ViewController.m */,
+				BD8CF434196225EC007FF171 /* Catalogs */,
+				BD8CF437196225EC007FF171 /* Fonts */,
+				BD8CF438196225EC007FF171 /* Identifiers */,
 			);
-			name = "View Controllers";
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		BD8CF434196225EC007FF171 /* Catalogs */ = {
+			isa = PBXGroup;
+			children = (
+				BD8CF435196225EC007FF171 /* ImagesCatalog.h */,
+				BD8CF436196225EC007FF171 /* ImagesCatalog.m */,
+			);
+			path = Catalogs;
+			sourceTree = "<group>";
+		};
+		BD8CF437196225EC007FF171 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		BD8CF438196225EC007FF171 /* Identifiers */ = {
+			isa = PBXGroup;
+			children = (
+				BD8CF439196225EC007FF171 /* Main_iPadStoryboardIdentifiers.h */,
+				BD8CF43A196225EC007FF171 /* Main_iPadStoryboardIdentifiers.m */,
+				BD8CF43B196225EC007FF171 /* Main_iPhoneStoryboardIdentifiers.h */,
+				BD8CF43C196225EC007FF171 /* Main_iPhoneStoryboardIdentifiers.m */,
+			);
+			path = Identifiers;
+			sourceTree = "<group>";
+		};
+		BD8CF43D196225EC007FF171 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BD8CF43E196225EC007FF171 /* Model Objects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model Objects";
+			sourceTree = "<group>";
+		};
+		BD8CF43F196225EC007FF171 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BD8CF440196225EC007FF171 /* Main_iPad.storyboard */,
+				BD8CF441196225EC007FF171 /* Main_iPhone.storyboard */,
+				BD8CF442196225EC007FF171 /* ViewController.h */,
+				BD8CF443196225EC007FF171 /* ViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		BD8CF444196225EC007FF171 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BD8CF445196225EC007FF171 /* External Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "External Frameworks";
+			sourceTree = "<group>";
+		};
+		BD8CF446196225EC007FF171 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD8CF447196225EC007FF171 /* Images.xcassets */,
+				BD8CF448196225EC007FF171 /* main.m */,
+				BD8CF449196225EC007FF171 /* TravisExample-Info.plist */,
+				BD8CF44A196225EC007FF171 /* TravisExample-Prefix.pch */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,11 +217,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD8CF42B19622540007FF171 /* Build configuration list for PBXNativeTarget "TravisExample" */;
 			buildPhases = (
+				BD8CF3FE1962253F007FF171 /* ShellScript */,
+				D4330B7C051248DBACDE5FE1 /* Check Pods Manifest.lock */,
 				BD8CF3FA1962253F007FF171 /* Sources */,
 				BD8CF3FB1962253F007FF171 /* Frameworks */,
 				BD8CF3FC1962253F007FF171 /* Resources */,
+				A46E56CA565C404BB86603FA /* Copy Pods Resources */,
 				BD8CF3FD1962253F007FF171 /* ShellScript */,
-				BD8CF3FE1962253F007FF171 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -188,21 +265,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD8CF42819622540007FF171 /* Images.xcassets in Resources */,
-				BD8CF4161962253F007FF171 /* Podfile in Resources */,
-				BD8CF41E19622540007FF171 /* objc-identifierconstants in Resources */,
-				BD8CF41C19622540007FF171 /* objc-customfontlist in Resources */,
-				BD8CF4181962253F007FF171 /* setup-structure in Resources */,
-				BD8CF41A1962253F007FF171 /* objc-assetgen in Resources */,
-				BD8CF42319622540007FF171 /* Main_iPad.storyboard in Resources */,
-				BD8CF42119622540007FF171 /* Main_iPhone.storyboard in Resources */,
-				BD8CF4141962253F007FF171 /* initial-git-commit in Resources */,
+				BD8CF452196225EC007FF171 /* Images.xcassets in Resources */,
+				BD8CF450196225EC007FF171 /* Main_iPhone.storyboard in Resources */,
+				BD8CF44F196225EC007FF171 /* Main_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		A46E56CA565C404BB86603FA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BD8CF3FD1962253F007FF171 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -229,6 +315,21 @@
 			shellPath = /bin/sh;
 			shellScript = "GENERATED_PATH=\"$SRCROOT/Classes/Generated\"\n\nIDENTIFIERS_PATH=\"$GENERATED_PATH/Identifiers\"\nCATALOGS_PATH=\"$GENERATED_PATH/Catalogs\"\nFONTS_PATH=\"$GENERATED_PATH/Fonts\"\n\nrm -rf \"$IDENTIFIERS_PATH\"\nrm -rf \"$CATALOGS_PATH\"\nrm -rf \"$FONTS_PATH\"\nmkdir -p \"$IDENTIFIERS_PATH\"\nmkdir -p \"$CATALOGS_PATH\"\nmkdir -p \"$FONTS_PATH\"\n\n\"$SRCROOT/codegenutils/objc-assetgen\" -f \"$SRCROOT\" -o \"$CATALOGS_PATH\"\n\"$SRCROOT/codegenutils/objc-identifierconstants\" -f \"$SRCROOT/Classes\" -o \"$IDENTIFIERS_PATH\" -u\n\"$SRCROOT/codegenutils/objc-customfontlist\" -s -f \"$SRCROOT\" -o \"$FONTS_PATH\" -u";
 		};
+		D4330B7C051248DBACDE5FE1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -236,9 +337,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD8CF42619622540007FF171 /* ViewController.m in Sources */,
-				BD8CF4121962253F007FF171 /* AppDelegate.m in Sources */,
-				BD8CF40D1962253F007FF171 /* main.m in Sources */,
+				BD8CF44D196225EC007FF171 /* Main_iPadStoryboardIdentifiers.m in Sources */,
+				BD8CF44B196225EC007FF171 /* AppDelegate.m in Sources */,
+				BD8CF44C196225EC007FF171 /* ImagesCatalog.m in Sources */,
+				BD8CF44E196225EC007FF171 /* Main_iPhoneStoryboardIdentifiers.m in Sources */,
+				BD8CF453196225EC007FF171 /* main.m in Sources */,
+				BD8CF451196225EC007FF171 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +423,7 @@
 		};
 		BD8CF42C19622540007FF171 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D60784369ACF4177BEC5B002 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -334,6 +439,7 @@
 		};
 		BD8CF42D19622540007FF171 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D60784369ACF4177BEC5B002 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -366,6 +472,7 @@
 				BD8CF42D19622540007FF171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
